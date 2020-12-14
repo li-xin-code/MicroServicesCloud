@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8001
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
@@ -21,3 +21,17 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 200
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8003/eureka
+  instance:
+    instance-id: provider-dept # 实例编号
+    prefer-ip-address: true # 访问路径显示IP地址
+
+info:
+  app.name: microServicesCloud
+  company.name: com.lx
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

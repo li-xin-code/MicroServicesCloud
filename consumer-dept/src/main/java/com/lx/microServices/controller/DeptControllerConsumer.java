@@ -31,7 +31,7 @@ public class DeptControllerConsumer {
     }
 
     @GetMapping("/list")
-    public List list() {
+    public List<?> list() {
         return restTemplate.getForObject(REST_URL_PREFIX + "/dept/list", List.class);
     }
 

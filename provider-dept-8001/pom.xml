@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>provider-dept</artifactId>
+    <artifactId>provider-dept-8001</artifactId>
 
     <dependencies>
         <dependency>

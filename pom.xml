@@ -19,6 +19,8 @@
         <module>consumer-dept-feign-8082</module>
         <module>provider-dept-hystrix-8011</module>
         <module>consumer-hystrix-dashboard-9001</module>
+        <module>zuul-gateway-9011</module>
+        <module>config-9021</module>
     </modules>
     <packaging>pom</packaging>
 

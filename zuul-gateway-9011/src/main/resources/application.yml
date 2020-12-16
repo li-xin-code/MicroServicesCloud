@@ -1,0 +1,28 @@
+server:
+  port: 9011
+
+spring:
+  application:
+    name: ZuulGateway9011
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: gateway9001.com # 实例编号
+    prefer-ip-address: true # 访问路径显示IP地址
+    appname: Zuul-Gateway
+
+zuul:
+  routes:
+    dept.serviceId: provider-dept
+    dept.path: /dept/**
+  ignored-services: "*"
+  prefix: /microservices
+
+info:
+  app.name: microServicesCloud
+  company.name: com.lx
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

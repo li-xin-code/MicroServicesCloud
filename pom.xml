@@ -16,6 +16,8 @@
         <module>provider-dept-8001</module>
         <module>provider-dept-8002</module>
         <module>provider-dept-8003</module>
+        <module>consumer-dept-feign-8082</module>
+        <module>provider-dept-hystrix-8011</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -6,7 +6,7 @@
         insert into dept(dName, dbSource) value (#{dName}, database());
     </insert>
     <select id="findById" resultType="com.lx.microServices.api.entities.Dept" parameterType="java.lang.Long">
-        select deptNot, dName, dbSource from dept where deptNo=#{deptNo};
+        select deptNo, dName, dbSource from dept where deptNo=#{deptNo};
     </select>
     <select id="findAll" resultType="com.lx.microServices.api.entities.Dept">
         select deptNo, dName, dbSource from dept;

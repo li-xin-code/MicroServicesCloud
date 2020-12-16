@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/consumer/dept")
 public class DeptControllerConsumer {
+
     @Autowired
     private DeptClientService deptService;
 

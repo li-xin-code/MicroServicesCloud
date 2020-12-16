@@ -12,7 +12,8 @@ import java.util.List;
  * @author lx
  * @date 2020/12/16
  */
-@FeignClient(value = "PROVIDER-DEPT")
+@FeignClient(value = "PROVIDER-DEPT",
+        fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
     /**

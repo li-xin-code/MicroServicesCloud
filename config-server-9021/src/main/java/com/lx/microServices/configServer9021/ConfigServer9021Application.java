@@ -1,4 +1,4 @@
-package com.lx.microServices.config9021;
+package com.lx.microServices.configServer9021;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,8 +10,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  */
 @SpringBootApplication
 @EnableConfigServer
-public class Config9021Application {
+public class ConfigServer9021Application {
     public static void main(String[] args) {
-        SpringApplication.run(Config9021Application.class,args);
+        SpringApplication.run(ConfigServer9021Application.class,args);
     }
 }

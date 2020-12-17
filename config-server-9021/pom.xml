@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>config-9021</artifactId>
+    <artifactId>config-server-9021</artifactId>
 
     <dependencies>
         <!-- springCloud Config -->

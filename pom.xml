@@ -20,7 +20,8 @@
         <module>provider-dept-hystrix-8011</module>
         <module>consumer-hystrix-dashboard-9001</module>
         <module>zuul-gateway-9011</module>
-        <module>config-9021</module>
+        <module>config-server-9021</module>
+        <module>config-client-9031</module>
     </modules>
     <packaging>pom</packaging>
 

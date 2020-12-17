@@ -1,4 +1,4 @@
-package com.lx.microServices.configClient9031;
+package com.lx.microServices.configClient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2020/12/17
  */
 @SpringBootApplication
-public class ConfigClient9031Application {
+public class ConfigClientApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClient9031Application.class, args);
+        SpringApplication.run(ConfigClientApplication.class, args);
     }
 }

@@ -2,6 +2,6 @@ spring:
   cloud:
     config:
       name: microservicescloud-config-client
-      profile: dev
+      profile: test
       label: master
       uri: http://localhost:9021/

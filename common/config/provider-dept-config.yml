@@ -41,3 +41,42 @@ info:
   company.name: com.lx
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+---
+server:
+  port: 8021
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  type-aliases-package: com.lx.microServices.api.entities
+  mapper-locations:
+    - classpath:mybatis/mapper/**/*.xml
+
+spring:
+  profiles: test
+  application:
+    name: provider-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///microServices1?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7011/eureka
+  instance:
+    instance-id: provider-dept-8021 # 实例编号
+    prefer-ip-address: true # 访问路径显示IP地址
+
+info:
+  app.name: microServicesCloud
+  company.name: com.lx
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

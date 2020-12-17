@@ -21,7 +21,9 @@
         <module>consumer-hystrix-dashboard-9001</module>
         <module>zuul-gateway-9011</module>
         <module>config-server-9021</module>
-        <module>config-client-9031</module>
+        <module>config-client</module>
+        <module>config-eureka-7011</module>
+        <module>config-provider-dept-8021</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -10,58 +10,7 @@ spring:
         git:
           uri: git@github.com:xiaoxin-99/MicroServicesCloud.git
 #          force-pull: true
-          private-key: |
-                        -----BEGIN RSA PRIVATE KEY-----
-                        MIIJJwIBAAKCAgEAth1tjmTX3q0apgHvUy/UaehPNbBRuDMm0x/XpMI94kSyAMhx
-                        WKiaCXPixZO0aqQNIsurlPAuxB4z2Q+mg44KWHA/ibIn7FCT/j4Bo7t8qAE/XDyU
-                        Qqyc7d3XJboFm620ZLC1E9H+g+qNa1VHuu2mGf9y8X5M+zwFGUzMABPrjcAgNW2F
-                        M5o2IRQ954fwERquZ34i2lu1ypWZUzAktxyY/nIangGuFJjA+5H7NgWo2c48bHEb
-                        lHH8/cjqGJOv/2ruxljPROZz+St26Ug1AG4EFmbAPsZX3QbE9KN89UjGNEdqj5kU
-                        ilhrUSPrHvGWo/aBCwinAbXV40x612WSHvOV/hf4kprz839SxqHc1tjkvephvnJ2
-                        geVHpsyPKhqQW3V4syZT2umnqbMa0W3/3xd20AL8RAfcZLBwuaem7aksLaDxZgoH
-                        j56tfLnsvGnyDFPGhtd8q4CY2IUJDHlZYcwGgxE4XRrawFN3ZRDbfvtiXUak6C9F
-                        zh0QQYsDm7WeSgoPxd3ErU/pN5aOLS0hS3hmiUN/e7yCS495E5Igr84mVZvZ6390
-                        kaYIoVimLvpAR2an/G2pUwj/d+JC43wwLnZNqm6Wz6XOfeD9wE2I0Qm3x9+Gokr6
-                        7KoyL0rq7EVq+Zen8JqMmsLQwh1B0j/j/1RksZjor/N0SEADeU4sa5CqAkECAwEA
-                        AQKCAgBpLkfnNNEEt9+rP3TVC8vXuyd8b7BS/aAP0dU/QDxzoY9ZKmtkdEQ672Zr
-                        DGroKIW5sf4QUEQCWxtA42wdkPzipTndMjsinktLTM6vnQpbEhVhFU/fzkf4jebD
-                        0FOK3WFRwkljACbKU76H3kJGcRk87K+bUIHvnHOpcBRmexrRzMQNd4q2Cfv3UPSL
-                        85QwnMNb3JsOmGc/cPWT+TtLUsX+NzKuTXQYSz0yTtbTFaO24Ak/7HesXcVrYg3q
-                        UeoVT9JGVmaneZ5Dq9nK1DxgWiocMg4Yc3+tlUpNrNrv468t5I1kEFqvqG+a9m7G
-                        eWuymR1gnQev0jCNTc+o9e3V2IOouuH8qPa2Sba2wRKLgnPyJPlSFEBZVbtfpZ6n
-                        DWdbQznvOjB15FbdAyErQ/ShHlW9puOHCGa3PerdeH+XnIgdpdQtBihFm9kbGkV/
-                        xyJTE+j8dVywY38soiPLkwQZIDVQQEJbbc6pyfEqX/w33WFOh/vuMwGaf4Yvk+19
-                        KDed1Yu0yNaMPdFjl02WLhpJkvG4UUAbqlMb6L2kW7QcN/6Qly/mPStbwZrpX7Xg
-                        mjlzDR1zYpFyRuZk3ZvYuRoiAKkHkuVRPhGWtKaakusfIDe0rtUaGKmQK4t28447
-                        w7ak7N7+Q/SeFqRt6+zV3Qlb/MRhR0i9uNYLUbyCaWGRGaO+3QKCAQEA4D0qPy0C
-                        lgrmMAK8jBgZYomSSGEY4FI2UAnt/klgZLQwxivcAsBAebPztlV44VVi70Tj5SH8
-                        WbNBHEwifpYZ7L2BtihvLrioUpHX43cDnDwo0SrkOuitEI0kGLjaciTZ3pKp3Q9g
-                        yMFHe7yzfZ4bgODjGljfQuN7wXysvK1UOlB8CUce16I2xG5G2wZozcKlbwKFuY22
-                        QDLavzXVL1Bb83Txx9GIwqqcUSk3ZYYDLBVJ6501LBT20KoBPBg0/iHr2z+OD76o
-                        Q1zsZnb/I5k7J+jZL+nbYVRAyadfet6E1tZ2qpb0DqXVXojm/7mGqvsy3698DQ+g
-                        2LY4GUdEcJAqmwKCAQEAz+jcS9+6IcSyu4zf7qS/k+8ltVFsoWWzrjIAFdJ/YwCC
-                        wObGrDhMZ9TBJ6kssjEd/ttdKQbLnuXPy8gyb26t3kyPEr0IwFBU4MRQF6DfpfLU
-                        6KCWN1+CTtfPakfVQZWjPEYwqPkJD7hPvs4+iDHPefxibF7Po3KqHFuGkYK8wu8K
-                        0aJSVZV0l2I0VNkIYl8m8yg3dSm93t0Oy0WJpFswb5ljfTRCFFKd4/qS+2bfVf69
-                        FfTYUB5cRqobmqEFEC8Y9HFzI4MOfLqpikdBxrDuBl0WdbtZjOinrcrnKCab6pUj
-                        srRgsA1TEoByQUYJ4/yxSCx5WxVB/Qe9aORZ/Aa2UwKCAQAFFZ31nMGoQUsC360C
-                        yDEbKN9mQL1dqL+OhQsebu9+mQ9aDviIH2/W0pu+EKYTBeqeXkOEmIauSgA58gf+
-                        Ms0XrxxX0wbiWlGGvcPVZodwbXTHeV9/bnMuIuUkolxhpjBCebTcTFL3elpylc7E
-                        FGevPmon2MgHLj1KH9eS16NHRzfoxfIPFaCER7PXl4ec0sMJh1cc4/ez8PNAzqms
-                        zvemx4oL69ZcA55TwMl+xdEgmML6UrA39am7BX/NqwbYlFBSwlgoRzxtepfpot0a
-                        I4lR2FfEXFsbE9v8No1VreH5NRevuoiCJIR4BkammcBR9CwtIj9/1FDjWQ5glFsa
-                        6kntAoIBAG/9KTSBZTwtPG0Du9dKzJq9tV0OZ+oj4v4QlrUqdk14h/WqGRfJF3bS
-                        Rdy8JoQxKswNkwe3TlTfyuckhe45+tOD/4kDY8RbQOz1MYMYt38m5wILBf77pjAb
-                        1PCVksxJ8uxTjoBl7DiYefP4Gfy4f95gUQ+4njWXXQP7VOfqOQzzP6uduKW65Ftq
-                        nW+anAaI5G0Tm5OzkT+LaR2a7kImkFd8kvds/678tWmInkVmqyQiG+3Ivf+h6uhx
-                        Vn8a/qQyCkoZFgDp5hLPZOVD7q08vmmVGLT/3oOlCjT11z9sVI2uGdV3jaEm/Dk6
-                        ENESDd/NTBzpP9ENCUdnNOJcJhA3+VsCggEABPu30swueGZ77at1URVoIfxkOkpf
-                        rAuZc0zJxTgFCtMwgLl0p8DuiHKCWjzBWGBkECqoTpci6V+/R30cv+424GX//8wE
-                        zuyWOrIBE7fmkhAiqSHS49YlwM3s9un52ODm0aSoAUS0X5Ej2IDAfnpG4A9qWGzd
-                        QKzSuFtphhb/CWgtrPws/g2Hc7IG2GK6ymFNHt/EEPRVenCLFbrdgM5aJfto+wqx
-                        CY+P2EQifkIrf0QAPe5piKJ5gsbo76E0shSmNHNXyrDH4mdEUiefH6bDCPYdSjjA
-                        w++/xhptPuKUZ8SQ6IWkR8Q/zPokGiMz6njjYHmX6EPpt/8GOLEzdR31YA==
-                        -----END RSA PRIVATE KEY-----
+          private-key: id_rsa
           search-paths: common/config
       label: master
 

@@ -10,7 +10,7 @@ spring:
         git:
           uri: git@github.com:xiaoxin-99/MicroServicesCloud.git
 #          force-pull: true
-          private-key: id_rsa
+#          private-key: id_rsa需要是 ssh-keygen -m PEM -t rsa -b 4096 -C "11111111@qq.com" 产生的秘钥
           search-paths: common/config
       label: master
 
